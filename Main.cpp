@@ -16,8 +16,6 @@ int main()
     //Static variable allocation
     int numOfVals, i, j, k;
 
-    output = "";
-
     cin >> numOfVals;
 
     //Dynamic variable allocation
@@ -27,8 +25,6 @@ int main()
     {
         cin >> values[i];
     }
-    
-    
 
     return 0;
 }
