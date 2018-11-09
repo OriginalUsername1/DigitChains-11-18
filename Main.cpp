@@ -19,7 +19,6 @@ int main()
     //Static variable allocation
     int numOfVals, i, j, k;
     stack <string> output;
-    stack <string> bestOutput;
 
     cin >> numOfVals;
 
@@ -38,6 +37,8 @@ int main()
 
 void charizard(stack <string>* out, string vals[], int length)
 {
+    string temp;
+    
     
 }
 
