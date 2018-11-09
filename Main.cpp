@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stack>
 
 using namespace std;
 
@@ -9,12 +10,16 @@ Written in C++ (GNU GCC compiler) using Code::Blocks
 */
 
 
+void charizard (stack <string>*, string arr[], int);
+
 
 int main()
 {
 
     //Static variable allocation
     int numOfVals, i, j, k;
+    stack <string> output;
+    stack <string> bestOutput;
 
     cin >> numOfVals;
 
@@ -26,6 +31,14 @@ int main()
         cin >> values[i];
     }
 
+    charizard(&output, values, numOfVals);
+
     return 0;
 }
+
+void charizard(stack <string>* out, string vals[], int length)
+{
+    
+}
+
 
