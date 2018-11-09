@@ -8,7 +8,6 @@ Written by Mark Yetter on 11/9/18
 Written in C++ (GNU GCC compiler) using Code::Blocks
 */
 
-string notAForLoop (string arr[], string, int)
 
 
 int main()
