@@ -38,8 +38,25 @@ int main()
 void charizard(stack <string>* out, string vals[], int length)
 {
     string temp;
+    int i, j, k;
     
+    for (i=0;i<length;i++)
+    {//gets a value to compare
+        for (j=0;j<out.top().length();j++)
+        {//gets the letters of the control
+            for (k=0;k<vals[i].length;k++)
+            {//gets the letters of the test
+                if (out.top()[j] == vals[i][k])
+                {
+                    out.push(vals[i]);
+                    
+                    
+                }
+            }
+        }
+    }
     
+    return;
 }
 
 
